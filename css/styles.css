@@ -12,7 +12,7 @@ body {
 }
 
 #navbar >li {
-	width: 60px;
+	width: 70px;
 	list-style: none;
 	float: left;
 }
@@ -22,11 +22,16 @@ li>a {
 	color: white;
 	line-height: 50px;
 	text-decoration: none;
+	font-size: 20px;
 }
 
 li>a:hover,
     focus {
     background-color: black;
     color: yellow;
-    padding-left: 7px;
+    text-align: center;
+}
+
+#skills {
+	margin-left: 25px;
 }
