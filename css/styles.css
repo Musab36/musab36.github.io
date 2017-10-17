@@ -1,0 +1,32 @@
+body {
+	background-color: black;
+}
+
+.navbar {
+	background-color: #333;
+}
+
+#navbar {
+	width: 800px;
+	height: 40px;
+}
+
+#navbar >li {
+	width: 60px;
+	list-style: none;
+	float: left;
+}
+
+li>a {
+	display: block;
+	color: white;
+	line-height: 50px;
+	text-decoration: none;
+}
+
+li>a:hover,
+    focus {
+    background-color: black;
+    color: yellow;
+    padding-left: 7px;
+}
