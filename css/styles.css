@@ -1,6 +1,7 @@
 /* Website template by freewebsitetemplates.com */
 body {
-	background: #333;
+	background-image: url(../images/universe.jpg);
+	background-size: cover;
 }
 #background {
 	min-height: 500px;
@@ -13,7 +14,7 @@ img {
 	border: 0;
 }
 #meImg {
-	height: 425px;
+	height: 555px;
 	width: 300px;
 	margin-left: 70px;
 }
