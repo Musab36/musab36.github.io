@@ -129,3 +129,64 @@ div.desc {
 .images {
 	margin-left: 100px;
 }
+
+div.des {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-family: Papyrus, fantasy;
+    height: 220px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#footer {
+	color: #594334;
+	font-size: 14px;
+	line-height: 48px;
+	margin: -38px 0 20px;
+	padding-top: 42px;
+	text-transform: uppercase;
+}
+#footer > div {
+	background-color: blue;
+	height: 48px;
+	width: 822px;
+	border-bottom: 1px solid #72675f;
+	border-top: 1px solid #cdbeb2;
+	margin: 0 auto;
+	padding: 0 20px;
+	text-align: right;
+}
+#footer ul.navigation {
+	float: left;
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#footer ul.navigation li {
+	float: left;
+	margin-right: 10px;
+}
+#footer ul.navigation li a {
+	color: #594334;
+	padding: 0 5px;
+	text-decoration: none;
+}
+#footer ul.navigation li:first-child a {
+	border-left: 0;
+	padding-left: 0;
+}
+#footer ul.navigation li a:hover {
+	color: #eee7c3;
+}
+#footer ul.navigation li.active a {
+	color: #fff;
+}
+#footer p {
+	margin: 0;
+	text-align: center;
+	text-transform: none;
+}
+
